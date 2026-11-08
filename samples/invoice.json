@@ -1,0 +1,44 @@
+{
+  "invoice_number": "INV-2026-0001",
+  "issue_date": "2026-11-08",
+  "due_date": "2026-12-08",
+  "currency": "USD",
+  "status": "unpaid",
+  "po_number": "7781",
+  "seller": {
+    "name": "Pixelsquare",
+    "address": ["Jhamsikhel, Lalitpur", "Kathmandu Valley, Nepal"],
+    "email": "billing@pixelsquare.io",
+    "phone": "+977 1 555 0100",
+    "tax_id": "VAT-601234567"
+  },
+  "buyer": {
+    "name": "Springfield International School",
+    "address": ["12 Main Street", "Springfield, 49007"],
+    "email": "accounts@springfield.edu"
+  },
+  "items": [
+    {
+      "description": "Tuition fee — Grade 8",
+      "quantity": 2,
+      "unit": "month",
+      "unit_price": 1500,
+      "tax_rate": 10
+    },
+    {
+      "description": "Science lab fee",
+      "unit": "term",
+      "unit_price": 250.5,
+      "tax_rate": 10
+    },
+    {
+      "description": "Library membership",
+      "quantity": 1,
+      "unit_price": 75
+    }
+  ],
+  "discount": 100,
+  "shipping": 0,
+  "notes": "Please pay the tuition fee before the due date. Fees are non-refundable after the first week of the term.",
+  "payment_terms": "Bank transfer to Pixelsquare Pvt. Ltd., A/C 0123456789, Swift PXSQNPKA."
+}

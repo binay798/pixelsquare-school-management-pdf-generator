@@ -1,0 +1,95 @@
+{
+  "student_name": "Aarav Shrestha",
+  "student_id": "STU-2026-0142",
+  "grade": "Grade 8",
+  "section": "A",
+  "roll_number": "14",
+  "academic_year": "2026/2027",
+  "term": "First Term Examination",
+  "issued_date": "2026-11-08",
+  "next_term_begins": "2027-01-12",
+  "school": {
+    "name": "Springfield International School",
+    "address": ["12 Main Street", "Springfield, 49007"],
+    "email": "office@springfield.edu",
+    "phone": "+1 217 555 0134"
+  },
+  "guardian": {
+    "name": "Nisha Shrestha",
+    "email": "nisha.shrestha@example.com",
+    "phone": "+977 9801 234 567"
+  },
+  "subjects": [
+    {
+      "name": "Mathematics",
+      "code": "MATH-8",
+      "credit_hours": 4,
+      "marks_obtained": 92,
+      "marks_total": 100,
+      "teacher": "Mr. R. Karki"
+    },
+    {
+      "name": "English",
+      "code": "ENG-8",
+      "credit_hours": 4,
+      "marks_obtained": 84.5,
+      "marks_total": 100,
+      "teacher": "Ms. L. Gurung"
+    },
+    {
+      "name": "Science",
+      "code": "SCI-8",
+      "credit_hours": 3.5,
+      "marks_obtained": 61,
+      "marks_total": 75,
+      "teacher": "Mr. S. Basnet",
+      "remarks": "Strong in practical work."
+    },
+    {
+      "name": "Social Studies",
+      "code": "SOC-8",
+      "credit_hours": 2,
+      "marks_obtained": 65,
+      "marks_total": 75,
+      "teacher": "Ms. P. Adhikari"
+    },
+    {
+      "name": "Computer Science",
+      "code": "CS-8",
+      "credit_hours": 2,
+      "marks_obtained": 47,
+      "marks_total": 50,
+      "teacher": "Mr. A. Thapa"
+    },
+    {
+      "name": "Nepali",
+      "code": "NEP-8",
+      "credit_hours": 2,
+      "marks_obtained": 72,
+      "marks_total": 100,
+      "teacher": "Ms. S. Rai"
+    },
+    {
+      "name": "Art",
+      "code": "ART-8",
+      "credit_hours": 1,
+      "marks_obtained": 30,
+      "marks_total": 50,
+      "teacher": "Ms. K. Joshi"
+    }
+  ],
+  "attendance": {
+    "present_days": 78,
+    "total_days": 84
+  },
+  "activities": [
+    "Inter-house debate — 2nd place",
+    "Annual science fair — robotics exhibit",
+    "Community clean-up drive"
+  ],
+  "class_teacher": "Ms. L. Gurung",
+  "class_teacher_remarks": "Aarav had a strong term. He is consistent in Mathematics and Computer Science and should keep working on written expression in Nepali.",
+  "principal": "Dr. M. Tamang",
+  "class_position": 3,
+  "class_size": 42
+}
